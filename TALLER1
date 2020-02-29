@@ -1,1 +1,53 @@
 # ¿QUÉ ES EL MACHINE LEARNING?.
+** Machine Learning ** es una disciplina científica del ámbito de la * Inteligencia Artificial* que crea 
+sistemas que aprenden automáticamente. Aprender en este contexto quiere decir identificar patrones 
+complejos en millones de datos. La máquina que realmente aprende es un algoritmo que revisa los datos y 
+es capaz de predecir comportamientos futuros. Automáticamente, también en este contexto, implica que estos 
+sistemas se mejoran de forma autónoma con el tiempo, sin intervención humana. Veamos cómo funciona.
+
+1. Big Data
+2. Tabla
+3. Importancia
+4. Codigo
+5. Cita
+6. Imagen
+
+
+
+## Big Data
+Big Data y Machine Learning aplicado a la empresa
+Una empresa de telefonía quiere saber qué clientes están en “peligro” de darse de baja de sus servicios 
+para hacer acciones comerciales que eviten que se vayan a la competencia. ¿Cómo puede hacerlo? La empresa 
+tiene muchos datos de los clientes, muchísimos: antigüedad, planes contratados, consumo diario, llamadas 
+mensuales al servicio de atención al cliente, últimos cambios de planes contratados… pero seguramente los usa solo para 
+facturar y para hacer estadísticas. ¿Qué más puede hacer con esos datos? Se pueden usar para predecir cuándo 
+un cliente se va a dar de baja y gestionar la mejor acción que lo evite. En pocas palabras, con Machine Learning 
+se puede pasar de ser reactivos a ser proactivos. Los datos históricos del conjunto de los clientes, debidamente 
+organizados y tratados en bloque, generan una base de datos que se puede explotar para predecir futuros comportamientos,
+favorecer aquellos que mejoran los objetivos de negocio y evitar aquellos que son perjudiciales.
+
+Machine Learning|Deep Learning
+---------|---------
+general|Especifico
+
+##¿Por qué es importante?
+La cantidad de datos que se generan actualmente en las empresas se está incrementado de forma exponencial. 
+Extraer información valiosa de ellos supone una ventaja competitiva que no se puede menospreciar. En CleverData 
+pensamos que es una oportunidad a la que se le debe prestar especial atención. La gran ventaja es que actualmente
+no hace falta ser un gurú de los datos para poder aprovechar este tipo de tecnologías. Existen en el mercado herramientas
+de uso muy sencillo (incluso para profanos en análisis de datos) y asequibles económicamente para cualquier tamaño 
+de empresa que permiten hacer predicciones como las descritas en el apartado anterior. Si quieres ver cómo se genera
+un modelo como el anterior, revisa este artículo en el que describimos el proceso paso a paso.
+
+~~~
+n=int(input("cuantos numeros desea comparar"))
+numeros=[]
+for i in range(n):
+    numeros.append(int(input("ingrese un numero")))
+
+numeros.sort()
+print ("el numero mayor es el: ",numeros[len(numeros)-1])
+~~~
+>"El deep Learning es el futuro" -Antonio Casas
+
+![img](img/images.jpg "cambaral")
